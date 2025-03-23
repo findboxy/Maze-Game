@@ -508,7 +508,7 @@ function rand(max) {
       ctx.canvas.width = viewHeight - viewHeight / 100;
       ctx.canvas.height = viewHeight - viewHeight / 100;
     } else {
-      ctx.canvas.width = viewWidth - viewWidth / 100;
+      ctx.canvas.width = viewWidth - viewWidth / 110;
       ctx.canvas.height = viewWidth - viewWidth / 100;
     }
   
@@ -537,7 +537,7 @@ function rand(max) {
     };
   
     finishSprite = new Image();
-    finishSprite.src = "unicorn.png"+
+    finishSprite.src = "unicorn1.png"+
     "?" +
     new Date().getTime();
     finishSprite.setAttribute("crossOrigin", " ");
