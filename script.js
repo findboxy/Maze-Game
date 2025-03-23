@@ -525,8 +525,8 @@ function rand(max) {
          }
     };
     sprite = new Image();
-    sprite.src =
-      "./key.png" +
+    sprite.url =
+      "https://img.freepik.com/premium-vector/cartoon-image-girl-with-blue-hair-blue-hair_961307-3190.jpg" +
       "?" +
       new Date().getTime();
     sprite.setAttribute("crossOrigin", " ");
@@ -538,7 +538,7 @@ function rand(max) {
     };
   
     finishSprite = new Image();
-    finishSprite.src = "./home.png"+
+    finishSprite.url = "https://png.pngtree.com/png-vector/20241021/ourmid/pngtree-magical-unicorn-character-illustration-png-image_14132883.png"+
     "?" +
     new Date().getTime();
     finishSprite.setAttribute("crossOrigin", " ");
