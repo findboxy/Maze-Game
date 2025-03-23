@@ -557,8 +557,8 @@ function rand(max) {
       ctx.canvas.width = viewHeight - viewHeight / 100;
       ctx.canvas.height = viewHeight - viewHeight / 100;
     } else {
-      ctx.canvas.width = viewWidth - viewWidth / 100;
-      ctx.canvas.height = viewWidth - viewWidth / 100;
+      ctx.canvas.width = viewWidth - viewWidth / 120;
+      ctx.canvas.height = viewWidth - viewWidth / 120;
     }
     cellSize = mazeCanvas.width / difficulty;
     if (player != null) {
