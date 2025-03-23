@@ -554,11 +554,11 @@ function rand(max) {
     let viewWidth = $("#view").width();
     let viewHeight = $("#view").height();
     if (viewHeight < viewWidth) {
-      ctx.canvas.width = viewHeight - viewHeight / 100;
-      ctx.canvas.height = viewHeight - viewHeight / 100;
+      ctx.canvas.width = viewHeight - viewHeight / 105;
+      ctx.canvas.height = viewHeight - viewHeight / 105;
     } else {
-      ctx.canvas.width = viewWidth - viewWidth / 120;
-      ctx.canvas.height = viewWidth - viewWidth / 120;
+      ctx.canvas.width = viewWidth - viewWidth / 50;
+      ctx.canvas.height = viewWidth - viewWidth / 50;
     }
     cellSize = mazeCanvas.width / difficulty;
     if (player != null) {
