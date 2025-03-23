@@ -538,7 +538,7 @@ function rand(max) {
     };
   
     finishSprite = new Image();
-    finishSprite.url = "https://png.pngtree.com/png-vector/20241021/ourmid/pngtree-magical-unicorn-character-illustration-png-image_14132883.png"+
+    finishSprite.src = "unicorn.png"+
     "?" +
     new Date().getTime();
     finishSprite.setAttribute("crossOrigin", " ");
