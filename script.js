@@ -525,8 +525,7 @@ function rand(max) {
          }
     };
     sprite = new Image();
-    sprite.url =
-      "https://img.freepik.com/premium-vector/cartoon-image-girl-with-blue-hair-blue-hair_961307-3190.jpg" +
+    sprite.url = "girl.jpg" +
       "?" +
       new Date().getTime();
     sprite.setAttribute("crossOrigin", " ");
